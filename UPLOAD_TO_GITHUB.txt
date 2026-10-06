@@ -1,0 +1,10 @@
+V19 上传说明
+
+1. 解压 ZIP。
+2. 将 app、build.gradle.kts、settings.gradle.kts、gradle.properties 等上传到 GitHub 仓库根目录。
+3. 如果 .github 文件夹因隐藏没有上传：
+   - GitHub -> Add file -> Create new file
+   - 文件名输入：.github/workflows/build-apk.yml
+   - 复制工程根目录 BUILD_APK_WORKFLOW.yml 的内容
+   - Commit changes
+4. Actions -> Build APK -> Run workflow。
